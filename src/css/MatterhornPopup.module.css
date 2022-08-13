@@ -1,0 +1,30 @@
+.videoIframe {
+  align-self: stretch;
+  position: relative;
+  height: 560px;
+  flex-shrink: 0;
+}
+.matterhornPopupDiv {
+  position: relative;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+@media screen and (max-width: 650px) {
+  .videoIframe {
+    height: 50.625vw !important;
+  }
+  .matterhornPopupDiv {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}
